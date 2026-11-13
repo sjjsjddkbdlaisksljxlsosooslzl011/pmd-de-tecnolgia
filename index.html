@@ -1,1 +1,374 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videojuegos y Tecnología</title>
+</head>
+
+<body>
+
+<header id="inicio">
+    <div class="tag">Explora · Aprende · Juega</div>
+
+    <h1>Videojuegos<br>y Tecnología</h1>
+
+    <p>
+        Un recorrido por la forma en que la tecnología ha cambiado
+        los videojuegos, sus herramientas y la manera en que las
+        personas juegan y se comunican.
+    </p>
+
+    <a class="btn" href="#historia">Comenzar recorrido</a>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#historia">Historia</a>
+    <a href="#tecnologia">Tecnología</a>
+    <a href="#beneficios">Impacto</a>
+    <a href="#encuesta">Encuesta</a>
+    <a href="#quiz">Cuestionario</a>
+    <a href="#comentarios">Comentarios</a>
+</nav>
+
+<main>
+
+<section id="historia">
+    <h2>01. ¿Cómo han evolucionado?</h2>
+
+    <p>
+        Los videojuegos comenzaron con experiencias sencillas y
+        con el tiempo incorporaron mejores gráficos, sonido,
+        controles y opciones para jugar con otras personas.
+        Actualmente se pueden disfrutar en consolas, computadores
+        y celulares.
+    </p>
+
+    <div class="grid">
+
+        <article class="card">
+            <div class="icon">🕹️</div>
+            <h3>Primeros juegos</h3>
+            <p>
+                Tenían gráficos simples y reglas fáciles.
+                Fueron importantes para iniciar la industria.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">🎮</div>
+            <h3>Consolas y PC</h3>
+            <p>
+                Los controles y computadores permitieron juegos
+                más variados y mundos más completos.
+            </p>
+        </article>
+
+        <article class="card">
+            <div class="icon">🌐</div>
+            <h3>Juegos en línea</h3>
+            <p>
+                La conexión a internet hizo posible jugar y
+                comunicarse con personas de distintos lugares.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+<section id="tecnologia">
+    <h2>02. Tecnología que se utiliza</h2>
+
+    <div class="grid">
+
+        <article class="card">
+            <h3>Hardware</h3>
+            <p>
+                Son los componentes físicos, como el procesador,
+                la memoria, la tarjeta gráfica, la pantalla
+                y los controles.
+            </p>
+            <span class="pill">Computador</span>
+            <span class="pill">Consola</span>
+        </article>
+
+        <article class="card">
+            <h3>Software</h3>
+            <p>
+                Son los programas y sistemas que permiten crear,
+                ejecutar y actualizar los videojuegos.
+            </p>
+            <span class="pill">Motores gráficos</span>
+            <span class="pill">Programación</span>
+        </article>
+
+        <article class="card">
+            <h3>Inteligencia artificial</h3>
+            <p>
+                Puede ayudar a controlar personajes del juego,
+                adaptar retos y hacer que el entorno responda
+                a las acciones del jugador.
+            </p>
+            <span class="pill">Personajes</span>
+            <span class="pill">Entornos</span>
+        </article>
+
+        <article class="card">
+            <h3>Realidad virtual</h3>
+            <p>
+                Utiliza dispositivos especiales para crear
+                una experiencia digital más inmersiva.
+            </p>
+            <span class="pill">Inmersión</span>
+            <span class="pill">Sensores</span>
+        </article>
+
+    </div>
+</section>
+
+<section id="beneficios">
+    <h2>03. Impacto de los videojuegos</h2>
+
+    <div class="grid">
+
+        <article class="card">
+            <h3>Aspectos positivos</h3>
+            <ul>
+                <li>Entretenimiento y creatividad.</li>
+                <li>Trabajo en equipo en juegos cooperativos.</li>
+                <li>Práctica de resolución de problemas.</li>
+                <li>Aprendizaje mediante juegos educativos.</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <h3>Uso responsable</h3>
+            <ul>
+                <li>Organizar el tiempo de juego.</li>
+                <li>Hacer pausas y descansar.</li>
+                <li>Proteger los datos personales.</li>
+                <li>Tratar con respeto a otros jugadores.</li>
+            </ul>
+        </article>
+
+    </div>
+
+    <p class="notice">
+        La tecnología es una herramienta. Lo importante es
+        aprender a utilizarla de manera equilibrada, segura
+        y responsable.
+    </p>
+</section>
+
+<section id="encuesta">
+    <h2>04. Encuesta para los visitantes</h2>
+
+    <p>
+        Responde estas preguntas para conocer las preferencias
+        de quienes visitan el sitio. Los resultados se muestran
+        en esta página y no se envían a un servidor.
+    </p>
+
+    <form id="pollForm">
+
+        <label for="device">
+            ¿En qué dispositivo juegas más?
+        </label>
+
+        <select id="device" required>
+            <option value="">Selecciona una opción</option>
+            <option>Celular</option>
+            <option>Computador</option>
+            <option>Consola</option>
+            <option>No juego</option>
+        </select>
+
+        <label for="frequency">
+            ¿Con qué frecuencia juegas?
+        </label>
+
+        <select id="frequency" required>
+            <option value="">Selecciona una opción</option>
+            <option>Todos los días</option>
+            <option>Algunas veces por semana</option>
+            <option>De vez en cuando</option>
+            <option>Nunca</option>
+        </select>
+
+        <button type="submit">Enviar respuesta</button>
+
+    </form>
+
+    <p id="pollMessage" class="quiz-result"></p>
+</section>
+
+<section id="quiz">
+    <h2>05. Comprueba lo aprendido</h2>
+
+    <p>
+        <strong>
+            ¿Cuál de estos elementos corresponde al hardware
+            de un videojuego?
+        </strong>
+    </p>
+
+    <form id="quizForm">
+
+        <label>
+            <input type="radio" name="answer" value="a" required
+            style="width:auto">
+            Un control físico
+        </label>
+
+        <br>
+
+        <label>
+            <input type="radio" name="answer" value="b"
+            style="width:auto">
+            Un programa de edición
+        </label>
+
+        <br>
+
+        <label>
+            <input type="radio" name="answer" value="c"
+            style="width:auto">
+            Una actualización del juego
+        </label>
+
+        <br><br>
+
+        <button type="submit">Revisar respuesta</button>
+
+    </form>
+
+    <p id="quizResult" class="quiz-result"></p>
+</section>
+
+<section id="comentarios">
+    <h2>06. Comentarios y sugerencias</h2>
+
+    <p>
+        Deja una opinión sobre el contenido, el diseño o
+        la navegación. El comentario queda visible en esta
+        sesión del navegador.
+    </p>
+
+    <form id="commentForm">
+
+        <label for="visitor">
+            Nombre (opcional)
+        </label>
+
+        <input id="visitor" maxlength="40"
+        placeholder="Escribe tu nombre">
+
+        <label for="comment">
+            Tu comentario
+        </label>
+
+        <textarea id="comment" rows="4"
+        maxlength="500" required
+        placeholder="¿Qué te pareció el sitio?"></textarea>
+
+        <button type="submit">Publicar comentario</button>
+
+    </form>
+
+    <div id="commentsList" class="grid"></div>
+</section>
+
+<section id="mapa">
+    <h2>Mapa de navegación</h2>
+
+    <div class="map">
+        <span>Inicio</span> →
+        <span>Historia</span> →
+        <span>Tecnología</span> →
+        <span>Impacto</span> →
+        <span>Encuesta</span> →
+        <span>Cuestionario</span> →
+        <span>Comentarios</span>
+    </div>
+</section>
+
+<section id="mejoras">
+    <h2>07. Mejoras realizadas</h2>
+
+    <p>
+        Después de revisar el sitio, se pueden aplicar mejoras
+        como aumentar el tamaño de los textos, organizar mejor
+        el menú, corregir enlaces que no funcionen y agregar
+        ejemplos o imágenes que ayuden a entender los temas.
+        Esta sección sirve para registrar los cambios que se
+        hagan después de recibir opiniones reales.
+    </p>
+</section>
+
+</main>
+
+<footer>
+    Proyecto escolar · Tecnología e Informática · Grado décimo
+</footer>
+
+<script>
+
+// ENCUESTA
+document.getElementById('pollForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const device = document.getElementById('device').value;
+    const frequency = document.getElementById('frequency').value;
+
+    document.getElementById('pollMessage').textContent =
+        '¡Gracias por participar! Tu respuesta: ' +
+        device + ' · ' + frequency + '.';
+
+    this.reset();
+});
+
+// CUESTIONARIO
+document.getElementById('quizForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const answer = new FormData(this).get('answer');
+
+    document.getElementById('quizResult').textContent =
+        answer === 'a'
+        ? '¡Correcto! Un control físico es hardware.'
+        : 'Inténtalo otra vez. El hardware son las partes físicas del equipo.';
+});
+
+// COMENTARIOS
+document.getElementById('commentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name =
+        document.getElementById('visitor').value.trim() || 'Visitante';
+
+    const comment =
+        document.getElementById('comment').value.trim();
+
+    const card = document.createElement('article');
+    card.className = 'card';
+
+    const title = document.createElement('h3');
+    title.textContent = name;
+
+    const paragraph = document.createElement('p');
+    paragraph.textContent = comment;
+
+    card.append(title, paragraph);
+
+    document.getElementById('commentsList').prepend(card);
+
+    this.reset();
+});
+
+</script>
+
+</body>
+</html>
+
